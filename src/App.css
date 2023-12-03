@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.bg-container{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+}
+.heading{
+    color: #171f46;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+}
+.description{
+    color: #64748b;
+    font-family: "Roboto";
+    font-size: 22px;
+
+}
+.ul-container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
